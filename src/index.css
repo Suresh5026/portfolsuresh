@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&display=swap");
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: rgb(203, 226, 226);
+  background-image: url("/images/bgclg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+.navbarClass {
+  background-image: linear-gradient(
+    89.5deg,
+    rgba(131, 204, 255, 1) 0.4%,
+    rgb(18, 90, 192) 100.3%
+  );
+  color: black;
+  font-size: 1.5rem;
+}
+.navbar-link {
+  color: white;
+}
+.navbar-link:hover {
+  color: lightblue;
+}
+.about {
+  text-align: center;
+  margin: 6%;
+  min-height: 500px;
+  max-width: 600px;
+  box-sizing: border-box;
+  font-size: 1.5rem;
+}
+
+.boxes {
+  border: 1px solid black;
+  width: 300px;
+  border-radius: 5%;
+  max-width: 100%;
+  max-height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(43, 83, 139);
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .boxes {
+    width: 90%;
+    margin-bottom: 20px;
+    border-radius: 5%;
+  }
+}
+
+.card-hover-zoom {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-hover-zoom:hover {
+  transform: scale(1.05);
+}
+
+.custom-hr {
+  border: none;
+  height: 5px;
+  width: 70%;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.custom-hr1 {
+  border: none;
+  height: 2px;
+  width: 20%;
+  background-color: white;
+  margin: 20px auto;
+  border-radius: 2px;
+}
+
+.contact-button {
+  font-size: 1.25rem;
+  padding: 10px 20px;
+  width: 70%;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.contact-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.section {
+  padding: 60px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.section:last-child {
+  border-bottom: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 40px 0; /* Adjust padding for smaller screens */
+  }
+
+  h1 {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+  }
+}
+
