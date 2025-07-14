@@ -25,7 +25,7 @@ export default function About() {
               <br />
               <div>
                 <Button
-                  href="https://drive.google.com/file/d/1iV3eG2I19lzW5O6mu1Xk5CMxSgsrJulQ/view"
+                  href="https://drive.google.com/file/d/145pGGgtU0KcBq1fCggbbBBdWFaFYddHZ/view?usp=sharing"
                   variant="outline-info"
                   target="_blank"
                   rel="noopener noreferrer"
